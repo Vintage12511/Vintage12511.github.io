@@ -16,6 +16,12 @@ main {
   max-width: 960px;
   margin: 0 auto;
 }
+.container img {
+  object-fit: contain;
+/* or
+  object-fit: cover; */
+} 
+
 
 .main-image img {
   width: 100%;
