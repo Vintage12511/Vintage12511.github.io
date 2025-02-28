@@ -16,10 +16,15 @@ main {
   max-width: 960px;
   margin: 0 auto;
 }
-.container img {
+.container img {/* or
   object-fit: contain;
-/* or
-  object-fit: cover; */
+*/
+  object-fit: cover; 
+} 
+.container {/* or
+  object-fit: contain;
+*/
+  object-fit: cover; 
 } 
 
 
